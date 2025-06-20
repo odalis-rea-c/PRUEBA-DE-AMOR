@@ -1,0 +1,85 @@
+body {
+  background: rgb(252, 5, 5);
+  background: -webkit-linear-gradient(
+    to right,
+    rgb(255, 9, 9),
+    rgb(75, 5, 5),
+    rgb(235, 28, 28)
+  );
+  background: linear-gradient(
+    to right,
+    rgb(253, 2, 2),
+    rgb(252, 56, 56),
+    rgb(245, 45, 45)
+  );
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 8px rgb(243, 248, 224); /* Sombra más sutil y elegante */
+  font-size: 60px; /* Tamaño ligeramente mayor para dar presencia */
+  font-family: "Poppins", sans-serif; /* Fuente moderna y profesional */
+  font-weight: 700; /* Más grosor para destacar el título */
+  color: #333; /* Un tono oscuro que hace buen contraste con la sombra */
+  letter-spacing: 2px; /* Espaciado entre letras para mejorar la legibilidad */
+}
+form {
+  margin: auto;
+  width: 85%;
+  max-width: 600px;
+  background: rgb(170, 3, 114);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 10px;
+}
+label {
+  font-size: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.89);
+  display: block;
+  font-weight: 500;
+}
+input {
+  padding: 20px 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+button {
+  padding: 15px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background: rgb(44, 0, 0);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+button:hover {
+  background: rgb(26, 1, 1);
+}
+
+/* corazon roto */
+.corazon-roto {
+  text-align: center;
+}
+.corazon-roto img {
+  max-width: 100%;
+}
+.volver {
+  display: block;
+  color: white;
+  font-style: italic;
+  padding: 10px;
+}
+
+img{
+   display: block; 
+   margin: 20px auto; 
+   border-radius: 12px; 
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+   width: 500px; 
+   height: 400px;
+}
